@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
 * {
+    font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
     padding:0;
 }
 
 li, h1, a, button {
-    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     text-decoration: none;
 }
@@ -73,7 +73,7 @@ button {
     cursor:pointer;
     transition:all 0.3s ease 0s;
     font-size:medium;
-
+    color:black;
 }
 button:hover {
     background-color:rgba(0,136,169,0.8);
